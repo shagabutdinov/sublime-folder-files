@@ -1,0 +1,82 @@
+[
+  {
+    "keys": ["tab"],
+    "command": "open_exact_file_in_list",
+    "context": [
+      {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"},
+      {"key": "search_panel_name", "operator": "not_regex_contains", "operand": "save"},
+      {"key": "search_panel_name", "operator": "not_regex_contains", "operand": "rename"},
+      {"key": "search_panel_name", "operator": "not_regex_contains", "operand": "clone"}
+    ]
+  },
+
+  // should be in user
+  {
+    "keys": ["ctrl+n"],
+    "command": "create_folder_in_list",
+    "context": [
+      {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
+    ]
+  },
+
+  {
+    "keys": ["f10"],
+    "command": "open_file_manager_for_folder_in_list",
+    "context": [
+      {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
+    ]
+  },
+
+  {
+    "keys": ["alt+ctrl+i"],
+    "command": "goto_folder_in_list",
+    "args": {
+      "path": "$UP"
+    },
+    "context": [
+      {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
+    ]
+  },
+
+  {
+    "keys": ["alt+ctrl+k"],
+    "command": "goto_folder_in_list",
+    "args": {
+      "path": "$DOWN"
+    },
+    "context": [
+      {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
+    ]
+  },
+
+  {
+    "keys": ["ctrl+h"],
+    "command": "goto_folder_in_list",
+    "args": {
+      "path": "$ROOT"
+    },
+    "context": [
+      {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
+    ]
+  },
+
+  {
+    "keys": ["ctrl+shift+h"],
+    "command": "goto_folder_in_list",
+    "args": {
+      "path": "~"
+    },
+    "context": [
+      {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
+    ]
+  },
+
+  {
+    "keys": ["ctrl+f"],
+    "command": "find_in_current_file_folder",
+    "context": [
+      {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
+    ]
+  },
+
+]

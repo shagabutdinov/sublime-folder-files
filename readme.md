@@ -33,3 +33,10 @@ This commands will work when file list from directory is visible.
 | Goto root folder of project  | ctrl+h            |
 | Goto user home folder        | ctrl+shift+h      |
 | Find in current folder       | ctrl+f            |
+
+
+### Dependencies
+
+https://github.com/shagabutdinov/sublime-quick-search-enhanced
+https://github.com/shagabutdinov/sublime-file-list
+https://github.com/shagabutdinov/sublime-open-path

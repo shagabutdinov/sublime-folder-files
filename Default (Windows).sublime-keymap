@@ -3,6 +3,7 @@
     "keys": ["tab"],
     "command": "open_exact_file_in_list",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"},
       {"key": "search_panel_name", "operator": "not_regex_contains", "operand": "save"},
       {"key": "search_panel_name", "operator": "not_regex_contains", "operand": "rename"},
@@ -15,6 +16,7 @@
     "keys": ["ctrl+n"],
     "command": "create_folder_in_list",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
     ]
   },
@@ -23,6 +25,7 @@
     "keys": ["f10"],
     "command": "open_file_manager_for_folder_in_list",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
     ]
   },
@@ -34,6 +37,7 @@
       "path": "$UP"
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
     ]
   },
@@ -45,6 +49,7 @@
       "path": "$DOWN"
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
     ]
   },
@@ -56,6 +61,7 @@
       "path": "$ROOT"
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
     ]
   },
@@ -67,6 +73,7 @@
       "path": "~"
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
     ]
   },
@@ -75,6 +82,7 @@
     "keys": ["ctrl+f"],
     "command": "find_in_current_file_folder",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "search_panel_name", "operator": "regex_contains", "operand": "folder_files"}
     ]
   },

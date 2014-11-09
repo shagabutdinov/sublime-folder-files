@@ -6,7 +6,7 @@ Library plugin that provides navigation over directories functionality for
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-folder-files/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/folder_files.gif "Demo")
 
 
 ### Installation
@@ -37,6 +37,6 @@ This commands will work when file list from directory is visible.
 
 ### Dependencies
 
-https://github.com/shagabutdinov/sublime-quick-search-enhanced
-https://github.com/shagabutdinov/sublime-file-list
-https://github.com/shagabutdinov/sublime-open-path
+* [QuickSearchEnhanced](https://github.com/shagabutdinov/sublime-quick-search-enhanced)
+* [FileList](https://github.com/shagabutdinov/sublime-file-list)
+* [OpenPath](https://github.com/shagabutdinov/sublime-open-path)

@@ -40,3 +40,4 @@ This commands will work when file list from directory is visible.
 * [QuickSearchEnhanced](https://github.com/shagabutdinov/sublime-quick-search-enhanced)
 * [FileList](https://github.com/shagabutdinov/sublime-file-list)
 * [OpenPath](https://github.com/shagabutdinov/sublime-open-path)
+* [StatusMessage](https://github.com/shagabutdinov/sublime-status-message)

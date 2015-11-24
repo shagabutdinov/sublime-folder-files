@@ -6,10 +6,11 @@ try:
   from FileList.file_list import FileList, get_short_path, open_file
   from QuickSearchEnhanced import quick_search
   from StatusMessage import status_message
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "FolderFiles plugin for installation instructions; to disable this " +
-   "message remove this plugin")
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 class FolderFiles():
   def __init__(self, path, open = None, preview = None, status = '',

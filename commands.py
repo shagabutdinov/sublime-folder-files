@@ -10,10 +10,11 @@ try:
   from FileList.file_list import open_file, get_short_path
   from QuickSearchEnhanced import quick_search
   from OpenPath.open_path import open_path
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "FolderFiles plugin for installation instructions; to disable this " +
-   "message remove this plugin")
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 class FolderFilesHelper(sublime_plugin.TextCommand):
   def _get_panels(self):

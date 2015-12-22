@@ -28,12 +28,22 @@ class FolderFiles():
   def get_status(self):
     return self.status
 
-  def get_files(self):
-    files = []
-    for file_name in os.listdir(self.path):
-      files.append([self.path + '/' +file_name, file_name])
+  def _file_sorter(self, file):
 
-    return files
+    if os.path.isdir(self.path + '/' + file):
+      return '0_' + file
+    else:
+      return '1_' + file
+
+  def get_files(self):
+    files = sorted(os.listdir(self.path), key = self._file_sorter)
+    # files = []
+    print(files)
+    result = []
+    for file_name in files:
+      result.append([self.path + '/' +file_name, file_name])
+
+    return result
 
   def get_path(self):
     return self.path

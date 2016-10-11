@@ -23,16 +23,16 @@ package.
 
 This commands will work when file list from directory is visible.
 
-| Description                  | Keyboard shortcut |
-|------------------------------|-------------------|
-| Open exact file              | tab               |
-| Create folder                | ctrl+n            |
-| Open file manager for folder | f10               |
-| Goto folder up               | alt+ctrl+i        |
-| Goto folder down             | alt+ctrl+k        |
-| Goto root folder of project  | ctrl+h            |
-| Goto user home folder        | ctrl+shift+h      |
-| Find in current folder       | ctrl+f            |
+| Description                  | Keyboard shortcut                             |
+|------------------------------|-----------------------------------------------|
+| Open exact file              | <kbd>Tab</kbd>                                |
+| Create folder                | <kbd>Ctrl</kbd>+<kbd>N</kbd>                  |
+| Open file manager for folder | <kbd>F10</kbd>                                |
+| Goto folder up               | <kbd>Alt</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>   |
+| Goto folder down             | <kbd>Alt</kbd>+<kbd>Ctrl</kbd>+<kbd>K</kbd>   |
+| Goto root folder of project  | <kbd>Ctrl</kbd>+<kbd>H</kbd>                  |
+| Goto user home folder        | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd> |
+| Find in current folder       | <kbd>Ctrl</kbd>+<kbd>F</kbd>                  |
 
 
 ### Dependencies

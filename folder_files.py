@@ -37,8 +37,6 @@ class FolderFiles():
 
   def get_files(self):
     files = sorted(os.listdir(self.path), key = self._file_sorter)
-    # files = []
-    print(files)
     result = []
     for file_name in files:
       result.append([self.path + '/' +file_name, file_name])
